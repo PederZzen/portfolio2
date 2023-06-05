@@ -3,16 +3,22 @@ import { colors } from "../../../utils/constants";
 
 export const Wrapper = styled.div`
   display: flex;
-  justify-content: space-between;
-  padding: 1rem 0;
+  flex-direction: column;
+  justify-content: center;
 
-  a {
+  span {
+    color: ${colors.accent};
     font-weight: 600;
+    font-size: 0.8rem;
+    letter-spacing: 0.05rem;
+  }
+
+  h2 {
     color: ${colors.main};
   }
 
-  #menu  {
-    display: flex;
-    gap: 1.5rem;
+  p {
+    margin: 2rem 0;
+    color: gray;
   }
 `;

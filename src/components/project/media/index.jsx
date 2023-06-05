@@ -1,10 +1,11 @@
 import React from "react";
+import { Wrapper } from "./style";
 
 const Media = ({ media }) => {
   return (
-    <div>
+    <Wrapper>
       <img src={media} alt="Image of project" />
-    </div>
+    </Wrapper>
   );
 };
 

@@ -16,12 +16,14 @@ export const Wrapper = styled.div`
     color: ${colors.light};
     margin-bottom: 4rem;
     position: relative;
+    font-weight: 800;
+    letter-spacing: 0.05rem;
 
     &:after {
       content: "";
       background-color: ${colors.accent};
       width: 4rem;
-      height: 3px;
+      height: 4px;
       border-radius: 1.5px;
       left: 50%;
       bottom: -1rem;
@@ -31,6 +33,11 @@ export const Wrapper = styled.div`
   }
 
   p {
-    max-width: 45rem;
+    max-width: 40rem;
+    font-size: 1.1rem;
+  }
+
+  br {
+    margin-bottom: 1.5rem;
   }
 `;

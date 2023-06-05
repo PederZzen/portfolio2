@@ -22,4 +22,53 @@ export const GlobalStyle = createGlobalStyle`
         max-width: 1200px;
         margin: auto;
     }
+
+    .button {
+        display: inline-block;
+        width: 10rem;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        background-color: ${colors.main};
+        color: ${colors.light};
+        font-weight: 600;
+        border: 2px solid ${colors.main};
+        transition: all .3s;
+        cursor: pointer;
+        
+        &:hover {
+            background-color: ${colors.light};
+            color: ${colors.main};
+        }
+    }
+
+    .headerStyling {
+        position: relative;
+
+        h1 {
+            margin: 10rem 0 8rem;
+            color: ${colors.main};
+            position: relative;
+
+            &::after {
+            content: "";
+            background-color: ${colors.accent};
+            width: 4rem;
+            height: 4px;
+            border-radius: 1.5px;
+            left: 0;
+            bottom: -1rem;
+            position: absolute;
+            }
+        }
+
+        > span {
+            position: absolute;
+            font-size: 10rem;
+            font-weight: 800;
+            color: ${colors.main};
+            top: -7rem;
+            left: -4rem;
+            opacity: 0.05;
+        }
+    }
 `;
