@@ -21,4 +21,13 @@ export const Wrapper = styled.div`
     margin: 2rem 0;
     color: gray;
   }
+
+  div {
+    display: flex;
+    gap: 1rem;
+  }
+
+  #gitHub {
+    font-size: 2rem;
+  }
 `;

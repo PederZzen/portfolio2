@@ -14,6 +14,8 @@ export const projects = [
     description:
       "This was a school assignment my last year at Noroff School of Technology and Design. The task was to create a site were users could sign up for an account, and rent out their homes or rent someone elses. The project is built using React.",
     media: holidazeMedia,
+    url: "https://holidazenorway.netlify.app/",
+    github: "https://github.com/PederZzen/projectexam2",
   },
   {
     name: "Yuuup!",
@@ -22,6 +24,8 @@ export const projects = [
     description:
       "This is an online auction site where users can sign up, browse and bid on various items, and list their own items for bidding. It offers a user-friendly interface, real-time bidding updates, personalized profiles, and secure authentication. It was built in vanilla JavaScript as an assignment during my stuies at Noroff. ",
     media: yuuupMedia,
+    url: "https://yuup.netlify.app/",
+    github: "https://github.com/PederZzen/Semester-project-2",
   },
   {
     name: "BuyStuff.no",
@@ -30,22 +34,24 @@ export const projects = [
     description:
       "This online store was built using React. It offers the possibility to view a selection of items from an API, and add them to your shopping cart. It was the first big React assignment during my time at Noroff.",
     media: buyStuffMedia,
+    url: "https://buystuffnorway.netlify.app/",
+    github: "https://github.com/PederZzen/React_CA",
   },
   {
     name: "Telegrafen Drøbak",
     type: "Restaurant",
     recent: false,
-    description:
-      "This online store was built using React. It offers the possibility to view a selection of items from an API, and add them to your shopping cart. It was the first big React assignment during my time at Noroff.",
+    description: "Built for a restaurant in Drøbak",
     media: telegrafenMedia,
+    url: "https://telegrafendrobak.no/",
   },
   {
     name: "Livsløpet",
     type: "Blog",
     recent: false,
-    description:
-      "This online store was built using React. It offers the possibility to view a selection of items from an API, and add them to your shopping cart. It was the first big React assignment during my time at Noroff.",
+    description: "",
     media: livsløpetMedia,
+    url: "https://livsløpet.no/",
   },
   {
     name: "WG Plastsveis",
@@ -54,6 +60,7 @@ export const projects = [
     description:
       "This online store was built using React. It offers the possibility to view a selection of items from an API, and add them to your shopping cart. It was the first big React assignment during my time at Noroff.",
     media: wgplastMedia,
+    url: "https://wgplastsveis.no/",
   },
   {
     name: "Dånøts",
@@ -62,5 +69,6 @@ export const projects = [
     description:
       "This online store was built using React. It offers the possibility to view a selection of items from an API, and add them to your shopping cart. It was the first big React assignment during my time at Noroff.",
     media: donutsMedia,
+    url: "https://www.danots.no/",
   },
 ];

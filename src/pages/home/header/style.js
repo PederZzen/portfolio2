@@ -7,6 +7,7 @@ export const Wrapper = styled.div`
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  animation: fadein 3s;
 
   img {
     width: 35rem;
@@ -25,6 +26,15 @@ export const Wrapper = styled.div`
     span {
       font-size: 4rem;
       color: ${colors.main};
+    }
+  }
+
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
     }
   }
 `;

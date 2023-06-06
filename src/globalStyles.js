@@ -43,6 +43,7 @@ export const GlobalStyle = createGlobalStyle`
 
     .headerStyling {
         position: relative;
+        animation: fadein 2s;
 
         h1 {
             margin: 10rem 0 8rem;
@@ -69,6 +70,15 @@ export const GlobalStyle = createGlobalStyle`
             top: -7rem;
             left: -4rem;
             opacity: 0.05;
+        }
+
+        @keyframes fadein {
+            from {
+            opacity: 0;
+            }
+            to {
+            opacity: 1;
+            }
         }
     }
 `;
