@@ -14,7 +14,7 @@ const Details = ({ project }) => {
           <button className="button">See project</button>
         </a>
         {project.github ? (
-          <a id="gitHub" href={project.github}>
+          <a id="gitHub" href={project.github} target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faGithub} />
           </a>
         ) : null}

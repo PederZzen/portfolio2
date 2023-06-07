@@ -41,7 +41,8 @@ export const projects = [
     name: "Telegrafen Drøbak",
     type: "Restaurant",
     recent: false,
-    description: "Built for a restaurant in Drøbak",
+    description:
+      "Built with WordPress for a restaurant in Drøbak that offers a wide selection of foods from Indian cuisine to more modern dishes.",
     media: telegrafenMedia,
     url: "https://telegrafendrobak.no/",
   },
@@ -49,7 +50,8 @@ export const projects = [
     name: "Livsløpet",
     type: "Blog",
     recent: false,
-    description: "",
+    description:
+      "Built with WordPress for a client that offers legal advice for the more day-to-day problems that you might face.",
     media: livsløpetMedia,
     url: "https://livsløpet.no/",
   },
@@ -58,7 +60,7 @@ export const projects = [
     type: "Plastic welder",
     recent: false,
     description:
-      "This online store was built using React. It offers the possibility to view a selection of items from an API, and add them to your shopping cart. It was the first big React assignment during my time at Noroff.",
+      "WG Plastsveis provides services within plastic welding and special parts in all of Norway. This website was built using WordPress.",
     media: wgplastMedia,
     url: "https://wgplastsveis.no/",
   },
@@ -67,7 +69,7 @@ export const projects = [
     type: "Donut shop",
     recent: false,
     description:
-      "This online store was built using React. It offers the possibility to view a selection of items from an API, and add them to your shopping cart. It was the first big React assignment during my time at Noroff.",
+      "Dånøts is a friendly little café in Asker that serves you freshly baked donuts and newly brewed coffeé. Their website is built with WordPress.",
     media: donutsMedia,
     url: "https://www.danots.no/",
   },

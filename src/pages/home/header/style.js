@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { colors } from "../../../utils/constants";
 
 export const Wrapper = styled.div`
+  padding-top: 2rem;
   height: 95vh;
   display: flex;
   flex-direction: column;
@@ -10,16 +11,15 @@ export const Wrapper = styled.div`
   animation: fadein 3s;
 
   img {
-    width: 35rem;
+    width: 100%;
     opacity: 0.5;
   }
 
-  .copy {
+  .content {
     margin-top: 13rem;
     text-align: center;
 
     h1 {
-      font-size: 2.5rem;
       font-weight: 800;
     }
 
@@ -35,6 +35,17 @@ export const Wrapper = styled.div`
     }
     to {
       opacity: 1;
+    }
+  }
+
+  @media screen and (min-width: 550px) {
+    img {
+      width: 35rem;
+    }
+    .content {
+      h1 {
+        font-size: 2.5rem;
+      }
     }
   }
 `;

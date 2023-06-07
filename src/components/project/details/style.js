@@ -29,5 +29,6 @@ export const Wrapper = styled.div`
 
   #gitHub {
     font-size: 2rem;
+    color: ${colors.main};
   }
 `;

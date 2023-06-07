@@ -5,7 +5,7 @@ import { Wrapper } from "./style";
 const Header = () => {
   return (
     <Wrapper>
-      <div className="copy">
+      <div className="content">
         <h1>
           Hi, i'm <span>Espen</span>
           <br />
