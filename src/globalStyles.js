@@ -1,5 +1,5 @@
-import styled, { createGlobalStyle } from "styled-components";
-import { colors } from "./utils/constants";
+import { createGlobalStyle } from "styled-components";
+import { breakpoints, colors } from "./utils/constants";
 
 export const GlobalStyle = createGlobalStyle`
     * {
@@ -11,6 +11,9 @@ export const GlobalStyle = createGlobalStyle`
 
     body {
         background-color: ${colors.background};
+        position: relative;
+        padding-bottom: 8rem;
+        min-height: 100vh;
     }
 
     a {
@@ -19,8 +22,9 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     .maxWidth {
-        max-width: 1200px;
+        max-width: ${breakpoints.desktop};
         margin: auto;
+        padding: 0 0.5rem;
     }
 
     .button {
@@ -44,6 +48,7 @@ export const GlobalStyle = createGlobalStyle`
     .headerStyling {
         position: relative;
         animation: fadein 2s;
+        padding-top: 2rem;
 
         h1 {
             margin: 10rem 0 8rem;
@@ -67,7 +72,7 @@ export const GlobalStyle = createGlobalStyle`
             font-size: 10rem;
             font-weight: 800;
             color: ${colors.main};
-            top: -7rem;
+            top: 5rem;
             left: -4rem;
             opacity: 0.05;
         }

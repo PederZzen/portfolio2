@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div className="maxWidth headerStyling">
       <h1>Contact</h1>
-      <span>Contact</span>
+      <span>Coming soon</span>
     </div>
   );
 };

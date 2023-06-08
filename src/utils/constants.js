@@ -6,3 +6,9 @@ export const colors = {
   dark: "#414141",
   darker: "#313131",
 };
+
+export const breakpoints = {
+  mobile: "400px",
+  tablet: "750px",
+  desktop: "1200px",
+};

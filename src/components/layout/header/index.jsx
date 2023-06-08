@@ -13,18 +13,24 @@ const Header = () => {
   };
 
   return (
-    <Wrapper className="maxWidth">
-      <div>
-        <Link to="/">Espen Holm Pedersen</Link>
-      </div>
-      {windowWidth < 550 ? <MenuIcon icon={faBars} onClick={toggleMenu} /> : ""}
-      {mobile || windowWidth > 550 ? (
-        <div id="menu">
-          <Link to="/projects">Projects</Link>
-          <Link to="/about">About</Link>
-          <Link to="/contact">Contact</Link>
+    <Wrapper>
+      <div className="maxWidth">
+        <div>
+          <Link to="/">Espen Holm Pedersen</Link>
         </div>
-      ) : null}
+        {windowWidth < 750 ? (
+          <MenuIcon icon={faBars} onClick={toggleMenu} />
+        ) : (
+          ""
+        )}
+        {mobile || windowWidth > 750 ? (
+          <div id="menu">
+            <Link to="/projects">Projects</Link>
+            <Link to="/about">About</Link>
+            <Link to="/contact">Contact</Link>
+          </div>
+        ) : null}
+      </div>
     </Wrapper>
   );
 };
